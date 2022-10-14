@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Тест</title>
+  
+    <link  rel="stylesheet" href="./css/reset.css">
+    <link  rel="stylesheet" href="./css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link  rel="stylesheet" href="./css/style.css">    
+    
+</head>
+<body>    
+    <header class="mb-2">
+        <div class="top_header text-center"> 
+            <div>
+               <img class="ps-4 align-middle" src="image/image 18.png" alt="">
+               <div class="d-inline">Брендовий верхній одяг від 899 грн</div>
+           </div>
+        </div>
+        <div class="container p-0">  
+          
+            <div class="row  row_header row_header g-0  ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent pb-0 pt-0">
+              <div class="container-fluid ">
+                <div class="col-2">
+                <a class="navbar-brand logo" href="#">
+                  <img src="image/monvalise.png" alt=""></a>
+                </div> 
+                <div class="col-10 d-flex  ">
+                     <form class="d-flex">
+                  <input class="form-control ps-5" type="search" placeholder="Знайти речі або бренди" aria-label="Поиск">
+                  <button class="btn btn-dark text-nowrap ms-4" type="submit">Додати товар</button>
+                     </form>
+
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                   
+                            <li class="nav-item dropdown ps-4 pe-4 ">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                                data-bs-toggle="dropdown" aria-expanded="false">Укр </a>
+                                <ul class="dropdown-menu lang ms-4 p-0" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Укр</a></li>
+                                <li><a class="dropdown-item" href="#">En</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item badges pt-1">
+                                <a class="nav-link position-relative " href="#">                                    
+                                         <img src="image/icons/heart.png" alt="">
+                                         <span class="position-absolute top-10 start-80 translate-middle
+                                         badge rounded-pill">8
+                                          <span class="visually-hidden">Сподобалось</span>
+                                        </span>                                   
+                                </a>                               
+                            </li>
+
+                            <li class="nav-item badges pt-1">
+                              <a class="nav-link position-relative " href="#">                                
+                                     <img src="image/icons/comment.png" alt="">
+                                     <span class="position-absolute top-10 start-80  translate-middle 
+                                     badge rounded-pill bg-danger">3
+                                      <span class="visually-hidden">Коментарії</span>
+                                    </span>                                
+                            </a>
+                     
+                            </li>
+                            <li class="nav-item badges pt-1">
+
+                              <a class="nav-link position-relative " href="#">                                
+                                     <img src="image/icons/korz.png" alt="">
+                                     <span class="position-absolute top-10 start-80 translate-middle 
+                                     badge rounded-pill">3
+                                      <span class="visually-hidden">Товар</span>
+                                    </span>                                
+                            </a>
+                            </li>   
+                            <li class="nav-item dropdown ms-4">
+                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" 
+                              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             <img src="image/avatar.png" alt=""></a>
+                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                 <li><a class="dropdown-item" href="#">Дія</a></li>
+                                 <li><a class="dropdown-item" href="#">Інша дія</a></li>
+                             </ul>
+                            </li>                  
+                    
+                         </ul>                  
+                     </div>
+
+                 </div>
+              </div>
+            </nav>
+            </div>
+           <hr>       
+
+            <div class="row p-0 g-0"> 
+
+              <nav class="nav">
+                <a class="nav-link p-3 text-center " href="#">Головна</a>
+                <a class="nav-link p-3 text-center active" aria-current="page" href="#">Каталог</a>
+                <a class="nav-link p-3 text-center " href="#">Жінкам</a>
+                <a class="nav-link p-3 text-center " href="#">Чоловікам</a>
+                <a class="nav-link p-3 text-center " href="#">дИТЯЧі речі</a>
+                <a class="nav-link p-3 text-center " href="#">Аукціон</a>
+                <a class="nav-link p-3 text-center " href="#">Бренди</a>
+                <a class="nav-link p-3 text-center " href="#">Акції</a>
+                <a class="nav-link p-3 text-center " href="#">Аутентифікація</a>
+                <a class="nav-link p-3 text-center " href="#">Блог</a>
+              </nav> 
+            </div>   
+        </div> 
+        <hr>  
+    </header>
+    
+    <section class="pb-3 pt-4">
+        <div class="container p-0 pb-5">          
+                
+                <nav aria-label="breadcrumb" class="breadcrumbs">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Головна</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">
+                            Каталог одягу</li>
+                        </ol>
+                </nav>
+                <div class="row title m-0 p-0 pb-4">Каталог одягу</div>
+                <div class="row filter m-0 p-0 pb-4 pt-2 ">
+                    <div class="filter_text d-inline p-0 w-50">Фільтри</div>
+                    <div class="filter_but d-inline p-0 w-50 text-end">
+                        <div class="filter_but_1 d-inline p-0">  
+                            <label for="select2">Сортувати за:</label>                                           
+                        </div>
+                        <div class="filter_but_2 d-inline p-2 border-0 rounded-pill dropdown">  
+                            <select name="sort" id="select2" class=" border-0 rounded-pill">
+                                <option value="За замовчуванням">За замовчуванням</option>
+                                <option value="За замовчуванням">За замовчуванням</option>
+                            </select>       
+                        </div>
+                    </div>
+                </div>    
+                <div class="row g-0">
+                    <div class="col" >                    
+                        <div class="accordion" id="accordionExample">
+
+                            <div class="accordion-item border-0 rounded-0">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Категорії
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush m-0 p-o">
+                                        <li class="list-group-item border-0 p-0"><a href="">Одяг</a></li>
+                                        <li class="list-group-item border-0 p-0"><a href="">Взуття </a></li>
+                                        <li class="list-group-item border-0 p-0"><a href="">Аксессуари</a></li>
+                                     </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Ціна
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" 
+                              aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="thumb1">
+                                    <div class="thumb2"></div>
+
+                                    <input type="range" class="form-range" id="thumb3" min="980" value="20465" 
+                                    max="50000" oninput="document.getElementById('para').value = this.value;
+                                    document.getElementById('para1').value = this.min">
+
+                                    
+                                        <div class="w-50 float-start" style="padding-right: 5px;" >
+                                            <label for="para1" class="form-label">Від</label>
+                                            <div class="input-group mb-3 para01">
+                                                <output id="para1">980</output>
+                                            </div>
+                                        </div>
+
+                                        <div class="w-50 float-end" style="padding-left: 5px;">
+                                            <label for="para" class="form-label">До</label>
+                                            
+                                            <div class="input-group mb-3 para00">
+                                                <output id="para">20465</output>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Продавець
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush m-0 p-o">
+                                        <li class="list-group-item border-0 p-0"><a href="">Продавець1</a></li>
+                                        <li class="list-group-item border-0 p-0"><a href="">Продавець2 </a></li>
+                                        <li class="list-group-item border-0 p-0"><a href="">Продавець3</a></li>
+                                     </ul>
+                               </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Бренд
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" 
+                                data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <ul class="list-group list-group-flush m-0 p-o">
+                                          <li class="list-group-item border-0 p-0"><a href="">Бренд1</a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Бренд2 </a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Бренд3</a></li>
+                                       </ul>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header" id="headingFive">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Стать
+                                  </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    
+                                    <ul class="list-group border-0 ">
+                                      <li class="list-group-item d-flex justify-content-between align-items-center p-0 border-0">                                       
+
+                                        <div class="form-check mb-0">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                          <label class="form-check-label" for="flexCheckChecked">
+                                            Жінкам
+                                          </label>
+                                          
+                                        </div>
+                                        <span class="badge p-0">(64)</span>
+                                      </li>
+                                      <li class="list-group-item d-flex justify-content-between align-items-center p-0 border-0">
+                                        <div class="form-check mb-0">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                          <label class="form-check-label" for="flexCheckChecked">
+                                            Чоловікам
+                                          </label>
+                                        </div>
+                                        <span class="badge p-0">(16)</span>
+                                      </li>
+                                      <li class="list-group-item d-flex justify-content-between align-items-center p-0 border-0">
+                                        <div class="form-check mb-0">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                          <label class="form-check-label" for="flexCheckDefault">
+                                            Унісекс
+                                          </label>
+                                        </div>
+                                        <span class="badge p-0">(24)</span>
+                                      </li>
+                                    </ul>
+
+                                   
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header" id="headingSix">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Розмір
+                                  </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" 
+                                data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <ul class="list-group list-group-flush m-0 p-o">
+                                          <li class="list-group-item border-0 p-0"><a href="">Розмір1</a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Розмір2 </a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Розмір3</a></li>
+                                       </ul>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header" id="headingSeven">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Колір
+                                  </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" 
+                                data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <ul class="list-group list-group-flush m-0 p-o">
+                                          <li class="list-group-item border-0 p-0"><a href="">Колір1</a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Колір2 </a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Колір3</a></li>
+                                       </ul>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header" id="headingEight">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                  data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Матеріал
+                                  </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" 
+                                data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <ul class="list-group list-group-flush m-0 p-o">
+                                          <li class="list-group-item border-0 p-0"><a href="">Матеріал1</a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Матеріал2 </a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Матеріал3</a></li>
+                                       </ul>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header" id="headingNine">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                  data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    Сезон
+                                  </button>
+                                </h2>
+                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" 
+                                data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <ul class="list-group list-group-flush m-0 p-o">
+                                          <li class="list-group-item border-0 p-0"><a href="">Сезон1</a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Сезон2 </a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Сезон3</a></li>
+                                       </ul>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header" id="headingTen">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                  data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    Стиль
+                                  </button>
+                                </h2>
+                                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" 
+                                data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <ul class="list-group list-group-flush m-0 p-o">
+                                          <li class="list-group-item border-0 p-0"><a href="">Стиль1</a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Стиль2 </a></li>
+                                          <li class="list-group-item border-0 p-0"><a href="">Стиль3</a></li>
+                                       </ul>
+                                 </div>
+                                </div>
+                            </div>
+
+                        </div>   
+                    </div>
+                    <div class=" col-9 ms-4">
+                    <div class="row row-cols-1 row-cols-md-3 gx-0 pb-4">
+                          <div class="col" >
+                          <div class="card ">
+                             <div class="card_image">
+                                <div class="note invisible ">
+                                    organic
+                                </div>
+                                <div class="like">
+                                <button> 
+                                    <img src="image/icons/Union.png" alt="">
+                                </button>
+                                </div>
+                                <div class="image">   
+                              <img src="image/image 1.png" class="card-img-top" alt="">
+                                </div>
+                                <div class="top visible">ТОП</div>
+                             </div>
+
+                            <div class="card-body" >                               
+                                    <div class="item_details " >
+                                        <div class="item_brand">LOUIS VUITTON
+                                        </div> 
+                                        <div class="item_description">Темно-сині джинси Louis Vuitton
+                                        </div>  
+                                    </div>  
+                                    <div class="item_price_location">
+                                        <div class="price w-50 float-start">
+                                            <div class="price_full">5 499 ₴</div>
+                                            <div class="price_action">3 799 ₴ </div>
+                                        </div>
+                                        <div class="Location w-50 float-end text-end">
+                                            <div class="city">Херсон</div>
+                                            <div class="else" ><img src="/image/icons/lovebrand.png" alt="">LoveBrand</div>
+                                        </div>    
+                                    </div>                                 
+                            </div>
+                          </div>
+                          </div>
+                          <div class="col ms-4" >
+                            <div class="card ">
+                               <div class="card_image">
+                                  <div class="note invisible">
+                                    organic
+                                     </div>
+                                <div class="like">
+                                  <button> 
+                                      <img src="image/icons/Union.png" alt="">
+                                  </button>
+                                 </div>
+                              <div class="image">   
+                              <img src="image/image 21.png" class="card-img-top" alt="">
+                              </div>
+                              <div class="top visible" >ТОП</div>
+                              </div>
+  
+                              <div class="card-body">
+                                 
+                                      <div class="item_details" >
+                                          <div class="item_brand">THOM BROWNE
+                                          </div> 
+                                          <div class="item_description">Чорний піджак Thom Browne
+                                          </div>  
+                                      </div>  
+                                      <div class="item_price_location">
+                                          <div class="price w-50 float-start">
+                                              <div class="price_full">11 999 ₴</div>
+                                              <div class="price_action">8 599 ₴ </div>
+                                          </div>
+                                          <div class="Location w-50 float-end text-end">
+                                              <div class="city">Хмельницький</div>
+                                              <div class="else" ><img src="/image/icons/self.png" alt="">Sell_For_Men</div>
+                                          </div>                    
+                                      </div>                                   
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col ms-4" >
+                            <div class="card ">
+                               <div class="card_image">
+                                  <div class="note invisible">
+                                    organic
+                                     </div>
+                                <div class="like">
+                                  <button> 
+                                      <img src="image/icons/Union.png" alt="">
+                                  </button>
+                                 </div>
+                              <div class="image">   
+                              <img src="image/image 3.png" class="card-img-top" alt="">
+                              </div>
+                              <div class="top"></div>
+                              </div>
+  
+                              <div class="card-body">
+                                 
+                                      <div class="item_details" >
+                                          <div class="item_brand">CANALI
+                                          </div> 
+                                          <div class="item_description">Вовняний піджак Canali
+                                          </div>  
+                                      </div>  
+                                      <div class="item_price_location">
+                                          <div class="price w-50 float-start">
+                                              <div class="price_full">4 999 ₴</div>
+                                              <div class="price_action">2 599 ₴ </div>
+                                          </div>
+                                          <div class="Location w-50 float-end text-end">
+                                              <div class="city">Хмельницький</div>
+                                              <div class="else" ><img src="/image/icons/self.png" alt="">Sell_For_Men</div>
+                                          </div>                    
+                                      </div>                                   
+                                </div>
+                              </div>
+                          </div>  
+                    </div>        
+                    <div class="row row-cols-1 row-cols-md-3 gx-0 pb-4 ">
+                          <div class="col">
+                            <div class="card ">
+                               <div class="card_in">
+                                  <div class="note invisible">
+                                    organic
+                                     </div>
+                                <div class="like">
+                                  <button> 
+                                      <img src="image/icons/Union.png" alt="">
+                                  </button>
+                                 </div>
+                              <div class="image">   
+                              <img src="image/image 4.png" class="card-img-top" alt="">
+                              </div>
+                              <div class="top"></div>
+                              </div>  
+                              <div class="card-body">
+                                 
+                                      <div class="item_details" >
+                                          <div class="item_brand">LOUIS VUITTON
+                                          </div> 
+                                          <div class="item_description">Клатч Louis Vuitton Limelight
+                                          </div>  
+                                      </div>  
+                                      <div class="item_price_location">
+                                          <div class="price w-50 float-start">
+                                              <div class="price_full">4 999 ₴</div>
+                                              <div class="price_action">3 599 ₴ </div>
+                                          </div>
+                                          <div class="Location w-50 float-end text-end">
+                                              <div class="city">Дніпро</div>
+                                              <div class="else" ><img src="/image/icons/brand.png" alt="">Brandear</div>
+                                          </div>                    
+                                      </div>                                   
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col ms-4">
+                            <div class="card ">
+                               <div class="card_image">
+                                  <div class="note">
+                                    organic
+                                     </div>
+                                <div class="like">
+                                  <button> 
+                                      <img src="image/icons/Union.png" alt="">
+                                  </button>
+                                 </div>
+                              <div class="image">   
+                              <img src="image/image 5.png" class="card-img-top" alt="">
+                              </div>
+                              <div class="top"></div>
+                              </div>  
+                              <div class="card-body">
+                                 
+                                      <div class="item_details" >
+                                          <div class="item_brand">ELENA GHISELINI
+                                          </div> 
+                                          <div class="item_description">Сумка з декором Elena Ghisellini
+                                          </div>  
+                                      </div>  
+                                      <div class="item_price_location">
+                                          <div class="price w-50 float-start">
+                                              <div class="price_full">1 999 ₴</div>
+                                              <div class="price_action">1 599 ₴ </div>
+                                          </div>
+                                          <div class="Location w-50 float-end text-end">
+                                              <div class="city">Дніпро</div>
+                                              <div class="else" ><img src="/image/icons/brand.png" alt="">Brandear</div>
+                                          </div>                    
+                                      </div>                                   
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col ms-4" >
+                            <div class="card ">
+                               <div class="card_image">
+                                  <div class="note invisible">
+                                    organic
+                                     </div>
+                                <div class="like">
+                                  <button> 
+                                      <img src="image/icons/Union.png" alt="">
+                                  </button>
+                                 </div>
+                              <div class="image">   
+                              <img src="image/image 6.png" class="card-img-top" alt="">
+                              </div>
+                              <div class="top"></div>
+                              </div>  
+                              <div class="card-body">
+                                 
+                                      <div class="item_details" >
+                                          <div class="item_brand">ACNE
+                                          </div> 
+                                          <div class="item_description">Бомбер Acne на блискавці
+                                          </div>  
+                                      </div>  
+                                      <div class="item_price_location">
+                                          <div class="price w-50 float-start">
+                                              <div class="price_full">5 999 ₴</div>
+                                              <div class="price_action">4 199 ₴ </div>
+                                          </div>
+                                          <div class="Location w-50 float-end text-end">
+                                              <div class="city">Київ</div>
+                                              <div class="else" ><img src="/image/icons/alex.png" alt="">Alexalex</div>
+                                          </div>                    
+                                      </div>                                   
+                                </div>
+                              </div>
+                          </div>
+                    </div> 
+                    <div class="row row-cols-1 row-cols-md-3 gx-0 pb-4">     
+                          <div class="col" >
+                            <div class="card ">
+                               <div class="card_image">
+                                  <div class="note invisible">
+                                    organic
+                                     </div>
+                                <div class="like">
+                                  <button> 
+                                      <img src="image/icons/Union.png" alt="">
+                                  </button>
+                                 </div>
+                              <div class="image">   
+                              <img src="image/image 7.png" class="card-img-top" alt="">
+                              </div>
+                              <div class="top"></div>
+                              </div>  
+                              <div class="card-body">
+                                 
+                                      <div class="item_details" >
+                                          <div class="item_brand">GUCCI
+                                          </div> 
+                                          <div class="item_description">Довга сукня Gucci
+                                          </div>  
+                                      </div>  
+                                      <div class="item_price_location">
+                                          <div class="price w-50 float-start">
+                                              <div class="price_full">11 999 ₴</div>
+                                              <div class="price_action">8 599 ₴ </div>
+                                          </div>
+                                          <div class="Location w-50 float-end text-end">
+                                              <div class="city">Рівне</div>
+                                              <div class="else" ><img src="/image/icons/sell.png" alt="">SellBuy</div>
+                                          </div>                    
+                                      </div>                                   
+                                </div>
+                              </div>
+                          </div> 
+                          <div class="col ms-4" >
+                            <div class="card ">
+                               <div class="card_image">
+                                  <div class="note invisible">
+                                    organic
+                                     </div>
+                                <div class="like">
+                                  <button> 
+                                      <img src="image/icons/Union.png" alt="">
+                                  </button>
+                                 </div>
+                              <div class="image">   
+                              <img src="image/image 8.png" class="card-img-top" alt="">
+                              </div>
+                              <div class="top"></div>
+                              </div>  
+                              <div class="card-body">
+                                 
+                                      <div class="item_details" >
+                                          <div class="item_brand">CHANEL
+                                          </div> 
+                                          <div class="item_description">Помаранчевий бомбер Woolrich
+                                          </div>  
+                                      </div>  
+                                      <div class="item_price_location">
+                                          <div class="price w-50 float-start">
+                                              <div class="price_full">1 999 ₴</div>
+                                              <div class="price_action">1 599 ₴ </div>
+                                          </div>
+                                          <div class="Location w-50 float-end text-end">
+                                              <div class="city">Кропивницький</div>
+                                              <div class="else" ><img src="/image/icons/deeva.png" alt="">Deeva_Sofia</div>
+                                          </div>                    
+                                      </div>                                   
+                                </div>
+                              </div>
+                          </div> 
+                          <div class="col ms-4">
+                            <div class="card ">
+                               <div class="card_image">
+                                  <div class="note invisible">
+                                    organic
+                                     </div>
+                                <div class="like">
+                                  <button> 
+                                      <img src="image/icons/Union.png" alt="">
+                                  </button>
+                                 </div>
+                              <div class="image">   
+                              <img src="image/image 9.png" class="card-img-top" alt="">
+                              </div>
+                              <div class="top"></div>
+                              </div>  
+                              <div class="card-body">
+                                 
+                                      <div class="item_details" >
+                                          <div class="item_brand">HACHE
+                                          </div> 
+                                          <div class="item_description">Салатове пальто Hache
+                                          </div>  
+                                      </div>  
+                                      <div class="item_price_location">
+                                          <div class="price w-50 float-start">
+                                              <div class="price_full">5 999 ₴</div>
+                                              <div class="price_action">4 199 ₴ </div>
+                                          </div>
+                                          <div class="Location w-50 float-end text-end">
+                                              <div class="city">Київ</div>
+                                              <div class="else" ><img src="/image/icons/lovebrand.png" alt="">LoveBrand</div>
+                                          </div>                    
+                                      </div>                                   
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="row m-0 pt-4 mt-2 pb-5">
+                        <nav>
+                            <ul class="pagination justify-content-center align-items-center">
+                              <li class="page-item">
+                                <a class="page-link" href="#" >Попередня</a>
+                              </li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">1</a></li>
+
+                              <li class="page-item active" aria-current="page">
+                                <a class="page-link" href="#">2</a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">4</a></li>
+                              <li class="page-item"><a class="page-link" href="#">5</a></li>
+                              <li class="page-item"><a class="page-link" href="#">6</a></li>
+                              <li class="page-item"><a class="page-link" href="#">7</a></li>
+                              <li class="page-item"><a class="page-link" href="#">8</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Наступна</a>
+                              </li>
+                            </ul>
+                          </nav>
+                      
+                    </div>
+
+                    </div>
+                </div>
+
+        </div>    
+    </section>
+
+    <footer>
+        <div class="container p-0 pt-4">
+            <div class="d-flex justify-content-between mt-5 pb-5">
+                <div class="col">
+                    <ul class="list-group list-group-flush m-0 p-0">
+                        <li class="list-group-item border-0 bg-transparent">Довідка для покупців</li>
+                        <li class="list-group-item border-0 bg-transparent">Отримати підтримку</li>
+                        <li class="list-group-item border-0 bg-transparent">Як купувати</li>
+                        <li class="list-group-item border-0 bg-transparent">Як залишити корисний відгук</li>
+                        <li class="list-group-item border-0 bg-transparent">Програма Захисту Покупців</li>
+                        <li class="list-group-item border-0 bg-transparent">Рекомендації з безпечних покупок</li>
+                    </ul>
+                </div>                
+                <div class="col">
+                    <ul class="list-group list-group-flush m-0 p-o">
+                        <li class="list-group-item border-0  bg-transparent">Довідка для продавців</li>
+                        <li class="list-group-item border-0  bg-transparent">Як почати продавати</li>
+                        <li class="list-group-item border-0  bg-transparent">Тарифи</li>
+                        <li class="list-group-item border-0  bg-transparent">Угода користувача</li>
+                        <li class="list-group-item border-0  bg-transparent">Політика конфіденційності</li>
+                        <li class="list-group-item border-0  bg-transparent">Правила користування порталом</li>
+                        <li class="list-group-item border-0  bg-transparent">Бонусна програма</li>
+                    </ul>
+                </div>                
+                <div class="col">
+                    <ul class="list-group list-group-flush m-0 p-o">
+                        <li class="list-group-item border-0 bg-transparent">Про нас</li>
+                        <li class="list-group-item border-0 bg-transparent">Довідка та FAQ</li>
+                        <li class="list-group-item border-0 bg-transparent">Захист легальності контенту</li>
+                        <li class="list-group-item border-0 bg-transparent">Адміністрація</li>
+                        <li class="list-group-item border-0 bg-transparent">Вакансії</li>
+                    </ul>
+                </div>                
+                <div class="col">
+                    <ul class="list-group list-group-flush m-0 p-o">
+                        <li class="list-group-item border-0  bg-transparent">Мобільний додаток</li>  
+                        <li class="list-group-item border-0  pt-2 bg-transparent"><img src="image/icons/google-play.png" alt=""></li>                      
+                    </ul>
+                </div>
+            </div>
+                <hr class="mt-4 mb-4">
+            
+            <div class="row p-0 m-0">
+                   <div class="copy p-0 d-inline w-50">
+                    © 2022 Monvalise
+                   </div>
+                   <div class="copy p-0 d-inline w-50">
+                   </div>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
